@@ -94,6 +94,16 @@ function logMessage(message: string): void {
 
 >What is difference between framework base website and normal website (none framework)?
 
+* 框架網站 *React、Angular、Vue*
+  * **元件化架構** : 透過可重複使用的UI Component提高開發效率與可維護性。
+  * **狀態管理** : 利用 Vuex、Redux、Context 等技術來管理應用程式的狀態。
+  * **Virtual DOM** : 提升 UI 效能。
+* 一般(無框架)網站 *HTML、CSS、JavaScript*
+  * **手動DOM操作** : 直接操控DOM，管理UI更新與狀態變化。
+  * **結構較自由** : 隨著應用程式變得更複雜，維護與管理程式碼可能變得困難。
+  * **適用於小型專案** : 靜態網站或簡單的互動式頁面，無須引入額外的框架造成負擔。
+
+
 ### Q7.
 <details>
 <summary>
